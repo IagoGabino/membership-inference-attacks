@@ -1,0 +1,33 @@
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Diretórios de dados e resultados (ignorados para não subir no git)
+data/raw/*
+data/processed/*
+results/metrics/*
+results/figures/*
+
+# Mas mantemos as pastas vazias usando um .gitkeep (opcional)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/metrics/.gitkeep
+!results/figures/.gitkeep
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env
+
+# Arquivos de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Agente e cache
+.agent/
+.claude/
+.codex/

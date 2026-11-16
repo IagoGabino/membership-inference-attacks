@@ -1,0 +1,17 @@
+# ============================================================
+# Dependências principais
+# ============================================================
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+ucimlrepo>=0.0.3
+tqdm>=4.65.0
+
+# ============================================================
+# Dependências opcionais (descomentar se quiser usar)
+# ============================================================
+# opacus>=1.4.0                      # DP-SGD com Opacus
+# adversarial-robustness-toolbox     # ART para ataque MembershipInferenceBlackBox
